@@ -83,3 +83,4 @@ add_test(json11_test ${CMAKE_CURRENT_BINARY_DIR}/json11_test)
 # Install
 ################################################################
 install (FILES ${CMAKE_CURRENT_BINARY_DIR}/libjson11.a DESTINATION "lib")
+install (FILES ${CMAKE_CURRENT_BINARY_DIR}/json11.hpp DESTINATION "include")
